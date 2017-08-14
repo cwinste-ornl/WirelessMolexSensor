@@ -15,3 +15,5 @@ sudo su -c "cp interface-adhoc /etc/network/interfaces"
 sudo su -c "npm install -g pm2"
 
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=128" -- -v
+
+sudo su -c "reboot"
